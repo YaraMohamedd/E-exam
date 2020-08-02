@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#416297"
+android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Add_Question">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+  <Spinner
+      android:id="@+id/type"
+      android:layout_width="match_parent"
+      android:entries="@array/types"
+      android:background="#fff"
+      android:padding="7dp"
+      android:layout_margin="20dp"
+      android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/difficulity"
+        android:layout_width="match_parent"
+        android:entries="@array/dificulity"
+        android:background="#fff"
+        android:padding="7dp"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:hint="content"
+        android:background="#fff"
+        android:layout_margin="20dp"
+        android:padding="7dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/validanswer"
+        android:layout_width="match_parent"
+        android:hint="valid answer"
+        android:background="#fff"
+        android:layout_margin="20dp"
+        android:padding="7dp"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/wrong_answer1"
+        android:layout_width="match_parent"
+        android:hint="wrong answer1"
+        android:background="#fff"
+        android:layout_margin="20dp"
+        android:padding="7dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/wrong_answer2"
+        android:layout_width="match_parent"
+        android:hint="wrong answer2"
+        android:background="#fff"
+        android:layout_margin="20dp"
+        android:padding="7dp"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/wrong_answer3"
+        android:layout_width="match_parent"
+        android:hint="wrong answer3"
+        android:background="#fff"
+        android:layout_margin="20dp"
+        android:padding="7dp"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btn_add_to"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+       android:layout_gravity="center"
+        android:textColor="#000"
+        android:text="Add Question"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:background="@drawable/edit_add" />
+
+        <Button
+            android:id="@+id/btn_add_to_exam"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="Add question to exam"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:background="@drawable/edit_add" />
+
+        <Spinner
+            android:id="@+id/typ_truefalse"
+            android:layout_width="match_parent"
+            android:entries="@array/types"
+            android:background="#fff"
+            android:padding="7dp"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/difficulity_true_false"
+            android:layout_width="match_parent"
+            android:entries="@array/dificulity"
+            android:background="#fff"
+            android:padding="7dp"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/question_content"
+            android:layout_width="match_parent"
+            android:hint="content"
+            android:background="#fff"
+            android:layout_margin="20dp"
+            android:padding="7dp"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/valid"
+            android:layout_width="match_parent"
+            android:entries="@array/valid_answer"
+            android:background="#fff"
+            android:padding="7dp"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_Add"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="Add Question"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:background="@drawable/edit_add" />
+        <Button
+            android:id="@+id/btn_add_to_exam_true"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="Add question to exam"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:background="@drawable/edit_add" />
+    </LinearLayout>
+</ScrollView>

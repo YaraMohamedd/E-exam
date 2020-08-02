@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Subject_List">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="329dp"
+        android:layout_height="471dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/view_list"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <Button
+        android:id="@+id/btn_add_question"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_add"
+        android:text="Add Question"
+        android:textAllCaps="false"
+        android:textColor="#416297"
+
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <Button
+        android:id="@+id/btn_show_question"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+
+        android:background="@drawable/btn_add"
+        android:text="Show Question"
+        android:textAllCaps="false"
+        android:textColor="#416297"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
+
+    <Button
+        android:id="@+id/btn_add_questiontoexam"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/btn_add"
+        android:text="Add question to exam"
+        android:textAllCaps="false"
+        android:textColor="#416297"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/btn_add"
+        android:text="Update Question"
+        android:textAllCaps="false"
+        android:textColor="#416297"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
